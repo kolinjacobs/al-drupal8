@@ -9,6 +9,7 @@ Activelamp.com installation using docker4drupal and profiled with a React Fronte
 2. **Initial Machine Setup**. run `docker-sync start --foreground`
 3. **Docker**. then `docker-compose up -d`
 4. **Let it do it's thing**.
+5. `cd app` and `composer install`
 
 ## Running application
 1. App should now be visible at [http://activelamp.docker.localhost:8000](http://activelamp.docker.localhost:8000)
