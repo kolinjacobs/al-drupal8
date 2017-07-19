@@ -1,0 +1,54 @@
+          ok  Starting native_osx for sync appcode-native-osx-sync
+          ok  appcode-native-osx-sync container still running, restarting unison in container
+     command  docker exec appcode-native-osx-sync supervisorctl restart unison
+          ok  starting initial sync of appcode-native-osx-sync
+     success  Sync container started
+     success  Showing unison logs from your sync container: appcode-native-osx-sync
+          ok  Starting native_osx for sync appcode-native-osx-sync
+          ok  appcode-native-osx-sync container still running, restarting unison in container
+     command  docker exec appcode-native-osx-sync supervisorctl restart unison
+          ok  starting initial sync of appcode-native-osx-sync
+     success  Sync container started
+     success  Showing unison logs from your sync container: appcode-native-osx-sync
+          ok  Starting native_osx for sync docker-sync
+          ok  docker-sync container still running, restarting unison in container
+     command  docker exec docker-sync supervisorctl restart unison
+          ok  starting initial sync of docker-sync
+     success  Sync container started
+     success  Showing unison logs from your sync container: docker-sync
+   Sync Log:  UNISON 2.48.4 started propagating changes at 17:33:16.12 on 13 Jul 2017
+   Sync Log:  [BGN] Copying .travis.yml from /app_sync to /host_sync
+   Sync Log:  [END] Copying .travis.yml
+   Sync Log:  [BGN] Copying LICENSE from /app_sync to /host_sync
+   Sync Log:  [END] Copying LICENSE
+   Sync Log:  [BGN] Copying README.md from /app_sync to /host_sync
+   Sync Log:  [END] Copying README.md
+   Sync Log:  [BGN] Copying composer.json from /app_sync to /host_sync
+   Sync Log:  [END] Copying composer.json
+   Sync Log:  [BGN] Copying composer.lock from /app_sync to /host_sync
+   Sync Log:  [END] Copying composer.lock
+   Sync Log:  [BGN] Copying phpunit.xml.dist from /app_sync to /host_sync
+   Sync Log:  [END] Copying phpunit.xml.dist
+   Sync Log:  UNISON 2.48.4 finished propagating changes at 17:33:16.15 on 13 Jul 2017
+   Sync Log:  Synchronization complete at 17:33:16  (6 items transferred, 0 skipped, 0 failed)
+   Sync Log:  UNISON 2.48.4 started propagating changes at 17:33:18.87 on 13 Jul 2017
+   Sync Log:  [BGN] Copying drush from /app_sync to /host_sync
+   Sync Log:  [END] Copying drush
+   Sync Log:  [BGN] Copying scripts from /app_sync to /host_sync
+   Sync Log:  [END] Copying scripts
+   Sync Log:  [BGN] Copying vendor from /app_sync to /host_sync
+   Sync Log:  [END] Copying vendor
+   Sync Log:  [BGN] Copying web from /app_sync to /host_sync
+   Sync Log:  [END] Copying web
+   Sync Log:  UNISON 2.48.4 finished propagating changes at 17:35:01.39 on 13 Jul 2017
+   Sync Log:  Synchronization complete at 17:35:01  (4 items transferred, 0 skipped, 0 failed)
+   Sync Log:  UNISON 2.48.4 started propagating changes at 17:38:35.31 on 13 Jul 2017
+   Sync Log:  [BGN] Updating file web/sites/default/settings.php from /app_sync to /host_sync
+   Sync Log:  [END] Updating file web/sites/default/settings.php
+   Sync Log:  UNISON 2.48.4 finished propagating changes at 17:38:35.32 on 13 Jul 2017
+   Sync Log:  Synchronization complete at 17:38:35  (1 item transferred, 0 skipped, 0 failed)
+   Sync Log:  UNISON 2.48.4 started propagating changes at 17:38:37.42 on 13 Jul 2017
+   Sync Log:  [BGN] Copying web/sites/default/files/.htaccess from /app_sync to /host_sync
+   Sync Log:  [END] Copying web/sites/default/files/.htaccess
+   Sync Log:  UNISON 2.48.4 finished propagating changes at 17:38:37.43 on 13 Jul 2017
+   Sync Log:  Synchronization complete at 17:38:37  (1 item transferred, 0 skipped, 0 failed)

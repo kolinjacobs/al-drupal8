@@ -1,0 +1,8 @@
+global-styling:
+  version: 0.0.1
+  css:
+    base:
+      reactivelamp/dist/css/styles.css: {}
+  js:
+    base:
+      reactivelamp/dist/index.js: {}
