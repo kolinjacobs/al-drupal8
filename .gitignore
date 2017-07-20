@@ -12,7 +12,6 @@ app/vendor
 app/web/core/
 app/web/drush/
 app/web/example.gitignore
-app/web/index.php
 app/web/libraries/
 app/web/modules/
 app/web/sites/development.services.yml
